@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ionic's Component List
 >https://ionicframework.com/docs/components
 
@@ -11,3 +12,6 @@ $ ionic cordova prepare [ios/android/browser]
 $ ionic serve -l
 ...(Y/n)? [Y]
 ```
+=======
+12
+>>>>>>> 1fb4f51a8e70deb5b96adfb1a65da394420f43b2
