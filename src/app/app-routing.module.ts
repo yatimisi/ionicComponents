@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 const routes: Routes = [
-  { path: '', redirectTo: 'ion-grid', pathMatch: 'full' },
+  { path: '', redirectTo: 'home', pathMatch: 'full' },
   { path: 'home', loadChildren: './home/home.module#HomePageModule' },
   { path: 'action-sheet-example', loadChildren: './Action Sheet/action-sheet-example/action-sheet-example.module#ActionSheetExamplePageModule' },
   { path: 'alert-example', loadChildren: './Alert/alert-example/alert-example.module#AlertExamplePageModule' },
@@ -17,6 +17,7 @@ const routes: Routes = [
   { path: 'ion-fab-list', loadChildren: './FloatingActionButton/ion-fab-list/ion-fab-list.module#IonFabListPageModule' },
   { path: 'ion-fab', loadChildren: './FloatingActionButton/ion-fab/ion-fab.module#IonFabPageModule' },
   { path: 'ion-grid', loadChildren: './Grid/ion-grid/ion-grid.module#IonGridPageModule' },
+  { path: 'ion-infinite-scroll', loadChildren: './Infinite-Scroll/ion-infinite-scroll/ion-infinite-scroll.module#IonInfiniteScrollPageModule' },
 ];
 
 @NgModule({
